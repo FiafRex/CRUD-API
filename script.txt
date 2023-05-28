@@ -1,0 +1,23 @@
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC1FaTSUo2qWpLB67wSXBS2NZW6fz7MaP0",
+    authDomain: "fir-crud-api-35713.firebaseapp.com",
+    projectId: "fir-crud-api-35713",
+    storageBucket: "fir-crud-api-35713.appspot.com",
+    messagingSenderId: "931839892230",
+    appId: "1:931839892230:web:4752c75a5777e7a849dc87",
+    measurementId: "G-WQ6Q28FQFX"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
